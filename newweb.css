@@ -1,0 +1,49 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.cover {
+    background-image: url('cover-photo.jpg'); /* Replace with your cover photo */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    display: flex;
+}
+
+.login-container a {
+    color: #333;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.friend-box {
+    text-align: center;
+}
+
+.friend-box img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.tribute {
+    text-align: center;
+    background-color: #eee;
+    padding: 20px;
+}
+
+/* Add more styles as needed */

@@ -1,0 +1,45 @@
+.friends{
+    
+    background-color: cadetblue;
+}
+.header{
+    height:400px;
+    
+    background-image: url('FFFF.jpg');
+    background-position: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.blog{
+    box-shadow: 5px 5px 5px 5px;
+}
+.to{
+    text-align: center;
+}
+.input{
+    /* text-align:right 100px; */
+    padding: 10px;
+      margin: 10px;
+      width: calc(100% - 20px);
+      box-sizing: border-box;
+}
+.pic{
+    height: 400px;
+    background-image: url('../SARKS/FFFF.jpg');
+}
+.Emon{
+    height: 100px;
+background-image: url('../SARKS/FFFF.jpg');
+background-size: cover;
+background-position: center;
+padding: 20px; 
+text-align: justify; 
+
+}
+.AA{
+    display:flex;
+    justify-content: space-around; 
+    align-items: center;
+}
